@@ -1,6 +1,6 @@
 if ('serviceWorker' in navigator) {
   //serviceWorkerを登録
-  navigator.serviceWorker.register('/scripts/sw.js')
+  navigator.serviceWorker.register('/sw.js')
   .then(function (registration) {
     // 登録成功の場合
     console.log('ServiceWorker登録成功');
