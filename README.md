@@ -7,7 +7,7 @@
 * ダウンロードしたzipファイルを解凍し、Cドライブ直下に格納（ファイル名：HTML5-demo-master）
 * HTML5-demo-masterを右クリックし、「Open with Code」を選択
 * 画面左端の一番下のアイコンをクリックして、「Preview on Web Server」と検索
-* 「Preview on Web Server」をインストールし再起動
+* Preview on Web Serverをインストールし再起動
  　
 ##ツール
 
