@@ -3,6 +3,7 @@
 　「体験！HTML5を活用した業務アプリ開発」　ハンズオン用のデータです。
  
 ##セットアップ手順
+
 * 画面中央右の「Clone or Download」から、「Download ZIP」を選択
 * ダウンロードしたzipファイルを解凍し、Cドライブ直下に格納（ファイル名：HTML5-demo-master）
 * HTML5-demo-masterを右クリックし、「Open with Code」を選択
