@@ -5,11 +5,11 @@
 ##セットアップ手順
 
 * 画面中央右の「Clone or Download」から、「Download ZIP」を選択
-* ダウンロードしたzipファイルを解凍し、Cドライブ直下に格納（ファイル名：HTML5-demo-master）
+* ダウンロードしたzipファイルを解凍し、Cドライブ直下に格納
 * HTML5-demo-masterを右クリックし、「Open with Code」を選択
 * 画面左端の一番下のアイコンをクリックして、「Preview on Web Server」と検索
-* Preview on Web Serverをインストールし再起動
- 　
+* Preview on Web ServerをインストールしVisual Studio Codeを再起動
+
 ##ツール
 
 * [Chrome](https://www.google.co.jp/chrome/browser/desktop/)
