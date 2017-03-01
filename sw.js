@@ -17,25 +17,25 @@ var CacheItems = [
 self.addEventListener('install', function (event) {
   event.waitUntil(
     caches.open(CacheName)
-    .then(function (cache) {
-      cache.addAll(CacheItems);
-    })
+      .then(function (cache) {
+        cache.addAll(CacheItems);
+      })
   );
 });
 
 //ブラウザからのリクエストを横取り
-self.addEventListener('fetch', function(event) {
+self.addEventListener('fetch', function (event) {
   event.respondWith(
-    caches.match(event.request).then(function(response) {
-     if(response){
-       //リソースがあればServiceWorkerからレスポンス
-       console.log('Service Workerからレスポンス');
-       return response;
-     } else {
-       //リソースがなければサーバーにリクエスト
-       console.log('サーバーにリクエスト');
-       return fetch(event.request);
-     }
+    caches.match(event.request).then(function (response) {
+      if (response) {
+        //リソースがあればServiceWorkerからレスポンス
+        console.log('Service Workerからレスポンス');
+        return response;
+      } else {
+        //リソースがなければサーバーにリクエスト
+        console.log('サーバーにリクエスト');
+        return fetch(event.request);
+      }
     })
   );
 
