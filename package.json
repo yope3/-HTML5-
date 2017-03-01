@@ -1,0 +1,23 @@
+{
+  "name": "html5-demo",
+  "version": "1.0.0",
+  "description": "HTML5セミナー用デモデータ",
+  "main": "sw.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuichiNukiyama/HTML5-demo.git"
+  },
+  "keywords": [
+    "demo",
+    "ServiceWorker"
+  ],
+  "author": "Yoppei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuichiNukiyama/HTML5-demo/issues"
+  },
+  "homepage": "https://github.com/YuichiNukiyama/HTML5-demo#readme"
+}
