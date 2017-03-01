@@ -14,19 +14,19 @@ var CacheItems = [
 ];
 
 //キャッシュのインストール
-self.addEventListener('install', function (event) {
+self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CacheName)
-      .then(function (cache) {
+      .then((cache) => {
         cache.addAll(CacheItems);
       })
   );
 });
 
 //ブラウザからのリクエストを横取り
-self.addEventListener('fetch', function (event) {
+self.addEventListener('fetch', (event) => {
   event.respondWith(
-    caches.match(event.request).then(function (response) {
+    caches.match(event.request).then((response) => {
       if (response) {
         //リソースがあればServiceWorkerからレスポンス
         console.log('Service Workerからレスポンス');
